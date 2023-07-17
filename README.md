@@ -44,12 +44,12 @@ Code for Team 1678's 2023 robot, Tangerine Tumbler.
 
 - [`com.team1678.frc2023.states`](src/main/java/com/team1678/frc2023/states/)
 
-	Contains code for subsystems, with one singleton implementation per subsystem.  Subsystems extend the [`Subsystem`](src/main/java/com/team1678/frc2023/subsystems/Subsystem.java) abstract class. Each subsystem's logic is contained in an enabled loop, a read periodic inputs method, and a write periodic outputs method, which are called by the [`SubsystemManager`](src/main/java/com/team1678/frc2023/SubsystemManager.java) class.  
-
+	Contains one class, [`SuperstructureGoal`](src/main/java/com/team1678/frc2023/states/SuperstructureGoal.java), which holds preset setpoints for the arm, elevator, and wrist.
 
 - [`com.team1678.frc2023.subsystems`](src/main/java/com/team1678/frc2023/subsystems/)
 
-	Contains one class, [`SuperstructureGoal`](src/main/java/com/team1678/frc2023/states/SuperstructureGoal.java), which holds preset setpoints for the arm, elevator, and wrist.
+	Contains code for subsystems, with one singleton implementation per subsystem.  Subsystems extend the [`Subsystem`](src/main/java/com/team1678/frc2023/subsystems/Subsystem.java) abstract class. Each subsystem's logic is contained in an enabled loop, a read periodic inputs method, and a write periodic outputs method, which are called by the [`SubsystemManager`](src/main/java/com/team1678/frc2023/SubsystemManager.java) class.  
+
 
 - [`com.team1678.lib.logger`](src/main/java/com/team1678/lib/logger/)
 
